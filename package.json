@@ -1,0 +1,14 @@
+{
+  "name": "goto-recover",
+  "version": "0.1.0",
+  "description": "Restore real destination URLs behind Google Search /goto?url= links, using data already present in the page.",
+  "private": true,
+  "main": "resolve.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "devDependencies": {
+    "terser": "^5"
+  }
+}
